@@ -20,9 +20,26 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>de.voomdoon.java.threaddump</groupId>
+			<artifactId>java-thread-dump-file-adapter</artifactId>
+			<version>0.1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
 			<groupId>de.voomdoon.util</groupId>
 			<artifactId>vd-cli-util</artifactId>
 			<version>0.1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>de.voomdoon.util</groupId>
+			<artifactId>vd-csv-util</artifactId>
+			<version>0.1.0-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>de.voomdoon.testing</groupId>
+			<artifactId>vd-test-util</artifactId>
+			<version>0.1.0-SNAPSHOT</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 </project>
